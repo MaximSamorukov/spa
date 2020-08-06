@@ -6,8 +6,8 @@ white: true
 */
 /* global $, spa */
 
-let spa = (function () {
-    let initModule = function ($container) {
+const spa = (function () {
+    const initModule = function ($container) {
         $container.html(
             '<h1 style="display: inline-block; margin: 25px;">'
             + 'hello world!'
