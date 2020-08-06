@@ -8,11 +8,7 @@ white: true
 
 const spa = (function () {
     const initModule = function ($container) {
-        $container.html(
-            '<h1 style="display: inline-block; margin: 25px;">'
-            + 'hello world!'
-            + '</h1>'
-        );
+        spa.shell.initModule($container)
     };
     return { initModule: initModule };
 }());
